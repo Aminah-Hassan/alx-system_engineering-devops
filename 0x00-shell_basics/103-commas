@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1Ap | paste -sd ',' -; echo
+ls --format=comma
